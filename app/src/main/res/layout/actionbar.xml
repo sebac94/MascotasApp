@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="?attr/actionBarSize"
+    android:background="#008080"
+    android:elevation="4dp"
+    >
+
+    <ImageButton
+        android:id="@+id/btnVolver"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:backgroundTint="#00000000"
+        android:maxWidth="500dp"
+        android:maxHeight="50dp"
+        android:scaleType="fitXY"
+        android:src="?attr/actionModeCloseDrawable"
+        android:onClick="irInicio"></ImageButton>
+
+    <TextView
+        android:id="@+id/lblCalificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14pt"
+        android:gravity="center_horizontal"
+        android:text="mascotasApp"
+        />
+    <ImageButton
+        android:id="@+id/btnFavoritos"
+        android:src="@drawable/hueso"
+        android:maxWidth="500dp"
+        android:maxHeight="50dp"
+        android:scaleType="fitXY"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#00000000"
+        android:layout_marginLeft="50dp"
+        android:onClick="irFavoritos"
+        >
+    </ImageButton>
+
+
+</androidx.appcompat.widget.Toolbar>
